@@ -3,6 +3,7 @@ import React from 'react'
 import StylestyleSheet from './Style/StylestyleSheet'
 import Styleinline from './Style/Styleinline'
 import Header from './Style/Heading'
+import Hello from './Style/Heelo'
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <Styleinline />
       <StylestyleSheet />
       <Header />
+      <Hello />
     </div>
   )
 }
